@@ -1,0 +1,168 @@
+# How Google Tests Software
+
+(2022-10-15)
+
+
+
+- **SET** - Software Engineers in Test - Responsible for test infrastructure, tooling, and overall development to make SEs more productive when it comes to writing test code. They work with SEs closely
+  - SETs are SWEs but focused on test development. 100% coding, and just as competitive when it comes to compensation and promotion
+- **TE** - Test Engineers - Software Engineers who are primarily responsible to write the test code. They understand product functionality. TEs are important and deliberately kept low in number. Not part of a product team, so cannot be told what to do -- therefore can keep quality bar high if product team wants to "defer tests".
+- Software goes through multiple channels
+  - Canary Channel - Most unstable
+  - Dev - Builds used for day to day work
+  - Test - "best build of the month" "dogfood"
+  - Beta - First builds to get external users
+- Small, medium, large tests. Emphasizes scope size. Can be automated, or manual. Small tests more likely to be automated.
+  - Small - "unit tests", likely to be written by the SE
+  - Medium - "integration tests" - written through partnership of SE and SET
+  - Large - "end-to-end tests" - tests scenarios, large, and can be written by the TE. These test real user cases
+- Feature developer vs. test developer - Feature development builds the functionality, test development *tries to* break the functionality
+- Try to reuse existing, shared libraries. Shared code must be written first, and must be clear. Must be tested well. 
+- Every developer has a system that is very similar to the test and production system. So all bugs in tester's machine will technically be reproducible on the production or dev machine. "no excuses".
+- A single platform (Linux-based), and a single repository... keep it simple and uniform.
+- Most 20% time projects which became real Google products did not focus on quality before product concept is fully baked and determined. Why? There could be misplaced priorities. It is the trend that early prototypes eventually become redesigned to the point where very little of the original code is left by the time it reaches beta.
+  - Focusing too much on tests at the early stage could be a fool's errand if the project is experimental.
+- SETs are scarce... up to the feature team to solicit aid of a SET
+- Good SETs are eager to review design documents, and adds quality and reliability sections as necessary. 
+  - Needs to be familiar with design of the system that is tested.
+- SET reviews the interfaces first, because most interfaces and protocols that will be implemented will need to be faked/mocked early on for integration testing. The earlier this is done, the better.
+  - It is much easier to inject failures and establish error conditions through mocks
+- SETs first job is to ensure code is testable. The program structure and coding style must be written in a way that lends itself better to unit testing.
+  - Also work on providing tooling and better frameworks to enable the SEs to write tests for themselves.
+- Test code is only useful in the context of being executable in a way that accelerates development and doesn't slow it down.
+  - Must be integrated into the actual development process.
+- Large tests can allow for external network connections. Medium tests, mocked, and at most a local server. Small tests, must be mocked.
+- Large tests
+  - Benefits: tests what is ultimately most important... how the application works. It accounts for the behavior of external subsystems.
+  - Weaknesses: can be non-deterministic, and cause flake. Broad scope makes failures harder to debug. Data setup can be time consuming.
+- Medium tests
+  - Benefits: runs in a standard development environment, and relatively fast. accounts for behavior of external subsystems.
+  - Weaknesses: Can be non-deterministic because of dependencies on external systems. Not as fast as small tests.
+- Small tests
+  - Benefits: Leads to cleaner code because methods must be relatively small and tightly focused to be easily tested. Mocking requirements lead to well defined interfaces. Runs quickly -- aiding to quick feedback loop. Reliable
+  - Weaknesses: Don't exercise integration between modules, mocking subsystems can be challenging. Mock or fake environments can get out of sync with reality.
+- Small tests -> code quality. Medium and large tests -> product quality
+- All code at Google is in single source tree (monorepo). Any code can be used by anyone at anytime. It better be solid. 
+- Interview questions for SETs often are not super tricky. Difficult enough to challenge, but not hard to the point where the candidate doesn't have time to come up with an approach to testing.
+- GOOD SET asks:
+  - What is the function used for?
+  - Why are we building it?
+  - Does the function prototype look correct? 
+  - Does not have to be told to test the code they write. It is automatic in their thinking
+- TE - Test Engineer - Focus is on user impact and risk. Some coding involved in the role.
+- In early development process, TE work isn't needed as much. So what does TE do here?
+  - Work on other projects in the meantime. Not tied to a specific team.
+- TE concerned with: weak points in software, security, privacy, reliability, etc... Do scenarios work as expected? How good is the diagnostic information when problems happen?
+  - Understand the product well enough to be effective! If not, then should get to the level of the "power user" for that product as a TE
+- Good test plan:
+  - Bulleted lists
+  - Test plans should not "sell" anything
+  - No fluff (length does not matter)
+  - If the item is not actionable - don't put it in plan
+  - Flow
+- Attribute - How is the product in question described (what tests can assert that the attributes are true?), Component - What makes up the system in question, Capability - actions that the system performs at the command of the user
+- Capabilities aspect should be the largest list. Sometimes can be hundreds! Capabilities should be testable. A single capability can describe any number of use cases, so they are not necessarily meant to be "atomic actions"
+  - Meant to list out what system can do, and not meant to be the test themselves
+  - Should ask "what can the user do?"
+  - User can... XYZ.
+- Can categorize capabilities by the components
+  - Ex: Google+ - Capabilities for user profiles, capabilities for notifications, etc.
+- Risk - perform risk analysis to determine the risk
+  - What events are concerning?
+  - How likely are they to happen?
+  - How bad? 
+  - What mitigations are in place? 
+  - Cost?
+  - Difficulty in dealing with failure?
+  - Is a problem likely to be recurring or one-time?
+- Risk can be looked at in 2 factors: frequency of failures + impact
+- Bias
+  - Developers tend to overrate features they own
+  - PMs then to prioritize features that make the software "pop" -- standing out from the competition
+  - Salespeople prioritize features that sell the product and can look good in demos
+  - Directors and VPs will prioritize features that set the software apart from major competitors
+- Mitigate risk:
+  - Add more constraints to risky features
+  - Regression test cases
+  - Tests the recovery/fallback features
+  - Instrumentation (telemetry) + watchdog code to detect failures early
+  - Instrumentation that notices behavioral changes of software for indication of bugs
+- Don't need to assign a number for risk. Simply knowing something is more risky than something else is often enough.
+- Google uses internal tool to document test cases for TEs
+  - Google Test Case manager (GTCM)
+- It is not about the number of test cases you can come up. Prioritize quality test cases. Google interprets those who come up with test cases in terms of quantity as negative.
+- Several types of leads/managers at Google
+  - Tech Lead - Usually don't manage people. They are the "go-to" person for technical and/or testing problems on the team. The role is often informal and organically decided based on team dynamics. They are focused on a single project at a time
+  - Tech Lead Manager (TLM) 
+  - Test Engineering Manager - EMs for test. Manage 12-35 people depending on complexity of work. Focus on cross-team sharing of tools, and processes, load balancing people across teams based on risk assessments, and steering the recruiting and interview and hiring pipelines.
+  - Test director - Overall scoping of test work and drive strategic and transformative technical infrastructure or testing methodologies. Managing lots of people.
+  - Senior Test Director - Exec level role
+- Maintenance mode
+  - Reduce the amount of human interaction required to keep quality in check
+  - Monitor quality, not look for new issues.
+  - Deprecate manual tests
+    - Tests that always pass or tests that are a low priority when you can't keep up with the higher priority testing
+    - Flaky tests
+  - Fix the hard problems before leaving
+  - Have a set of automated E2E tests
+  - Create a how-to document for running tests
+  - Have an escalation path if something goes wrong. 
+  - Be ready to dive in and help on projects you used to work on
+- External Vendors
+  - Google not afraid to seek expertise from external vendors
+- Example life in TE:
+  - Immerse self in product. Understand the product end to end, even if it means using the product as a real user, with own personal data.
+  - Develops a sense of stake in the success of the project
+  - Read documentation, run existing unit tests, and see if the unit tests make sense
+  - Communicate with team on expectations for testers. 
+  - See if design documents are up to date, or not
+- Use user feedback as a means to help determine whether a bug should be prioritized and fixed immediately
+- Most tooling used by TE are internal
+- TEM - Test Engineering Manager
+  - TEM has a leadership and coordination role of TEs and SETs which usually report to
+  - TEMs then report to director of test
+  - Understands the product very well. Given any question about the product, TEM should know.
+  - Knows the people involved. Know the skillset of the TEs and SETs working under TEM.
+  - Being understaffed is always a concern. Goal of TEM is to take a small team and make them perform like a larger team
+  - If TEM knows product well enough, then can identify the work that is highest priority that gets appropriate coverage.
+- Googler is free to change projects every 18 months +/- a quarter. No mandate to do so, but allows for breadth
+  - Some stay on a project for years or entire careers
+- Allocation is supported by a web app that any TEM can post job openings to and any TE or SET can browse for new opportunities. 
+- TEMs can view the resume and interview scores of a Noogler and place a "bid" on the allocation.
+  - Priority is to set the employee up for success
+  - Project needs
+  - If project hasn't had any new allocations, then they have priority
+- Goal for any test team is to create impact. TEM is responsible that a test team is impactful
+- Testing is not blamed if product is unsuccessful or unloved by users
+- At Google, no one team is responsible for the outcome in this
+- Each team is responsible for understanding the project's goals
+- Keep focused on what is important. Pick something hard and try to solve it, staying ultra focused on a problem that brings lots of value. (Impact)
+- Less is more. Drop the number of things doing to two or three and nail those 100%
+- Lessons:
+  - Write tests in the same language the application is written in
+  - Make sure person writing the feature is the person responsible for tests being executed. Don't ignore the tests
+  - Make writing tests easier -- they are less likely to be skipped
+  - 20% of use cases account for 80% of general usage. Automate those 20%.
+  - Make sure product is fast. 
+- TRAP: Don't roll out huge feature changes without pushing small experiments first. Put out a version to a few users to get some feedback before investing in a lot of test automation.
+  - Don't write tests too early. The architecture changes a product goes through in the beginning will negate your work.
+  - Wait too long, and you might delay a lunch for the lack of proper testing.
+  - TDD is key
+- Test Engineering Director (TED)
+  - Approve hires and transfers and generally control all aspects of test staffing.
+  - Advice from TED to teams: Focus on validating the core capabilities of the system to satisfy the attributes. Worry about the easy stuff (UI, bells and whistles) after the important stuff is right. Focus on areas such as performance, etc that are core attributes as they are difficult to change. 
+    - Spend less time on things that can be updated easily.
+- Fatal Flaws in Google's process
+  - Quality has to be built in, and not bolted on.
+  - Testers should not be the crutch of the developer to ensure quality.
+  - Google has such good test processes, that developers may have become lazy. Quality is not someone else's problem. It starts with the dev first.
+  - Testers prioritize role over product. Product is primary, not secondary to role. 
+    - "I work on Chrome" not "I am a tester"
+  - Testers worship test artifacts over the software itself
+  - Activities that go into generating the artifacts is what provides value. They are the output
+    - Unfortunately, value too much sometimes.
+    - Testers must put the product first
+  - Bugs will come anyway... The best testers are actually the real users!
+- Future of SET is bleak. SETs are developers. Period. Google pays them as developers, calibrates their performance against developers, and calls the role, technically, Software Engineers. SEs and SETs are in conclusion, the exact same role.
+- SETs treat testability, reliability, debugging capability as features. Then if those are features, then SETs are just SEs who own the features.
+- Testing is evolving -- thanks to agile development, and new ways to deliver software. Test Engineers are effectively in a role to plan test cases, and ensure any bugs trend down with new tests
