@@ -33,4 +33,4 @@ by Todd Hoff
 * Containers evolved from VM concept. Uses fewer resources. VM has to perform the job in looking like a full computer. So each VM gets a full copy of an OS. 
 * With containers, the OS is shared. Programs are then isolated.
 * Serverless - Update code (function) to a serverless service, and it can run on any environment. You don't have to worry about allocation or paying for unnecessary compute resources.
-
+*
