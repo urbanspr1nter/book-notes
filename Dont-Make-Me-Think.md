@@ -8,3 +8,7 @@ Steve Krug
 * The goal is to _MINIMIZE_ the "question mark" thoughts, and not eliminate them entirely. That's impossible. Strive to be *self-explanatory*.
 * We don't _read_ web pages. We scan them for interesting content.
 * When we visit a web page, the chances are that we already know what we are trying to look for. Therefore, users visit for a _purpose_.
+* We are really good at scanning quickly for information.
+* When we visit a page, we inherently know we don't need to read _everything_
+* Our eyes focus on words that relate to the task at hand.
+* We generally don't figure out how things work. We muddle through to the point where we can get the task done. Sometimes just knowing enough to get things done is _good enough_.
