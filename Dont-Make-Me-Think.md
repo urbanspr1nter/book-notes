@@ -60,3 +60,42 @@ Avoid disorganization and clutter on the page. Show what is important, and avoid
 * Keep paragraphs short
 * Use lots of bulleted lists.
 * Highlight key terms.
+
+
+### Mindless Choices
+
+* Users generally don't mind the number of clicks as long as each click is painless and have _continued confidence_ that they are on the right track.
+* Pages which attempt to provide guidance in getting some flow done should really:
+  1. Be brief. Give the smallest amount of information that will help.
+  2. Present information at points when they are exactly needed.
+  3. Unavoidable content should be placed where it is _**guaranteed**_ to be noticed.
+
+
+### Omit Needless Words
+* Omit needless words. Getting rid of unnecessary words reduces the noise level of the page, and makes _useful_ content more prominent.
+* It makes pages shorter, allowing users to see more of each page at a glance without scrolling.
+* Avoid very long introductory **happy text**. Happy text is unnecessary introductions and instructions that are written as if it was promotional material. Seriously. Read it in your head and you will just hear "blah blah blah".
+* Eliminate instructions and make things as straightforward as possible.
+
+### Designing Navigation
+* When we enter a website, we're in the process in trying to find something. We have a mission.
+* We can either decide to ask (search) or browse the site first.
+* There are 2 different types of users: search-dominate and browse-dominant users.
+* Search-dominant users will almost always look for the search box first, and utilize it to navigate around the website.
+* Browse-dominant, or "link-dominant" users will choose to attempt to make their way through a hierarchy to find the content that they need.
+* If navigation is too difficult, chances are, the users will just leave.
+* Web navigate **must** be good.
+* A good starting point is to just put navigation in standard places. Similar to how we find street signs in corners, there are plenty of websites to refer to that have pretty much the same navigational patterns.
+* It can be frustrating when these types of conventions are broken.
+* When browsing from page to page, the users expect that navigational elements across these pages should stay the same. The location is static, and it is good confirmation to the user that they are still in the same site.
+* Site ID, or logo, or link to the hom page should appear as frequently as possible to assure the user they are still on the same site. This is usually in the form of a logo at the top of the page which provides a link to the homepage.
+* The main navigation of the site should include 2 main components:
+  1. The sections - possible places users can navigate to.
+  2. The utilitiese - Things such as support section, search box, etc.
+* Again, in all pages, provide a mechanism to allow the user to go back to the home page. This is usually in the form of the logo, or "Home" button. The Home navigation acts as a "north star" for the user. If they get lost, they can navigate to Home and start over.
+* **Big MISTAKE** - Have lots of levels (4+) of navigation should mean that you must give the same attention of detail as the top level navigation. In some sites, the lower levels of navigation often lack the same polished usability as higher levels.
+* If a page can be navigated to, it should have a name, and it must be in the "right place". The name of the page *should* match what the user has clicked.
+* Make use of "active" styling to help reassure where the user is in the site. This is usually done by providing different styling on the links relating to the active page. Also, boldface on the corresponding breadcrumb element.
+* It is nice to think useres go to your site starting from the home page and then navigating from place to place. However, the reality is that users are usually placed at some random page from some referrer such as a search engine, or social media site without much knowledge, or idea where they are exactly. 
+  * The usability design of the site must be prepared for this type of scenario. The user must have their sense of direction when being placed on the page.
+* Refer to the "trunk test" to see if your site is clear enough to navigate around with.
