@@ -99,3 +99,73 @@ Avoid disorganization and clutter on the page. Show what is important, and avoid
 * It is nice to think useres go to your site starting from the home page and then navigating from place to place. However, the reality is that users are usually placed at some random page from some referrer such as a search engine, or social media site without much knowledge, or idea where they are exactly. 
   * The usability design of the site must be prepared for this type of scenario. The user must have their sense of direction when being placed on the page.
 * Refer to the "trunk test" to see if your site is clear enough to navigate around with.
+
+### The Importance in Getting People Off the Right Foot
+* The home page is very complex. Lots of content has to be packed into a single page. Introduction, site hierarchy, search, promotions, timely content, deals, shortcuts, registration, etc. 
+* The home page also at the same time, has to be intuitive to use, and informative in letting the user know where to begin.
+* The home page also has to make the user feel secure be trustworthy.
+* That's a lot of responsibility for the home page. It is very challenging. 
+* Designing a home page for a company is very challenging in that we're always trying to "squeeze one more thing".
+* Despite all these features, often times, the home page fails to communicate the big picture. Designs for home page lack the ability to make it clear enough _what the site is_. 
+* Home page has to be able to answer 4 questions immediately:
+  1. What is this?
+  2. What can I do here?
+  3. What do they have here?
+  4. Why should I be here and not somewhere else?
+* The user must be able to answer these questions at a glance with very little effort.
+* The first few seconds anyone spends on a website is very critical.
+* If users are already lost just getting started, then as they progress, they just keep getting even _more lost_.
+* It is critical to get users off the right food. You need to make sure that they are clear on the big picture.
+* Use as much space as needed to explain the site, but don't use any more space than necessary. Remember, omit needless words. Don't feel compelled to mention every great feature. Just the important ones.
+* Don't use your company's mission statement as a Welcome blurb. Nobody reads mission statements. The Welcome blurb should be a quick summary on what the site is.
+* Don't try to promote everything on the home page. 
+
+### Why Most Arguments About Usability are a Waste of Time, and How to Avoid Them
+* Most teams end up spending lots of time rehashing the same issues over and over again. Avoid religious debates, they not only waste time, but create unnecessary tension, and respect deteriorates amongst team members.
+* We tend to think most users are like "us". So then we form opinions for them. When endorphins are at work, it's hard to imagine that everybody doesn't feel the same way.
+* Result is that designers want to build sites that look great, developers want to build sites with interesting, original, ingenious features.
+* Differences in perspective often lead to conflict.
+* Myth of the average user. There is no average user. Don't assume the "average user" likes X and dislikes Y (vice versa). There are no simple "right" answers for web design. Obviously there are some things you should never do, and some things that can be done under extraordinary circumstances, but these things are not the fuel for the religious debates.
+* It's not productive to ask "Do most people like pull-down menus?" The best way to ask the question is to ask: "Does _this_ pull-down with _these_ items and _this_ wording in _this_ context on _this_ page create a good experience for most people who are _likely_ to use _this_ site?" -- Really only 1 way to answer this: **testing**.
+* Perform usability testing. You will see what works, and doesn't work for users.
+
+### Keeping Testing Simple - So You Do Enough of It
+* Focus group vs usability testing. Focus groups should be done _before_ you begin designing or building anything. Usability testing should be done through the entire process.
+* Small regular rounds of testing can be helpful. It is predictable, and cheap. And just one session can uncover a lot of things.
+* Test participants don't necessarily have to be part of the target audience. It can be almost anybody. In the beginning, you can find a lot of issues with your site with just normal people. Target audience recruitment can be unnecessarily expensive in time and money. It's still important to find users of your target audience, but it isn't as important as it seems. 
+* Perform the test remotely if getting a room is hard. Screensharing software works. Just make sure to record the session.
+* The person to facilitate the test should be patient, calm, empathetic and a good listener. It is also their job to help the participates "think aloud" as much as possible.
+
+### Mobile
+* Designing for mobile usability can be challenging. More constraints in screen size is the biggest factor.
+* Mobile versions of web sites sometimes try to pack too much information in. This leads to a very difficult to read site, or a slow performing site on mobile.
+* Most challenges in creating good mobile usability boil down to making good tradeoffs.
+* Don't assume that people who visit mobile versions of web pages only want to do a subset of functions that the full desktop version can. For most people, mobile devices are their first (and possibly only) computing device.
+* Always give users the option to browse the non-mobile version of the website. As long as there is zooming capabilities buil-in, some people actually prefer use the version they are more familiar with, in this case, it could be the desktop version of the site.
+* Do not sacrifice affordances. Buttons should look like buttons! They should look clickable! Input boxes should have borders! 
+* Don't depend on a hover state. There are no cursors on mobile devices. 
+* Flat design... this takes away affordances. Flat design makes it harder to differentiate things. If you choose to go with flat design, make sure you compensate for the lost of affordances.
+* 
+
+### Your Website Should be a Human Being
+* When users land on your website, they start with a "reservoir of goodwill". Every problem they encounter on the site will lower the level of that reservoir. 
+* If this reservoir is depleted, then there's a good chance they'll leave. Even worse, they will just stop using the site in the future, and give bad reviewes. 
+* However, sometimes it can be refilled, or it can be depleted immediately. It is situational.
+* Things that diminish goodwill:
+  1. Hiding information users want. Customer support numbers, shipping rates, prices, etc.
+  2. Punishing users for not doing things your way. Don't insist on making users jump through hoops just because you don't want to write a little bit of code to accommodate. 
+  3. Asking for information you don't really need. It is annoying.
+  4. Don't patronize. 
+  5. Useless marketing.
+  6. Site looks unprofessional.
+* Things that increase goodwill:
+  1. Know the main things that people want to do on your site and make it obvious an deasy.
+  2. Tell users what they want to know. (Shipping costs, fees, support numbers, etc.)
+  3. Cutting to the chase.
+  4. Putting effort into things (support websites - provide lots of materials)
+  5. Try to predict the questions the users may have.
+  6. Printer friendly pages!
+  7. Make it easy to recover from errors.
+  8. When in doubt provide messaging that is apologetic.
+
+### Accessibility
