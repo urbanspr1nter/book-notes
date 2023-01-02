@@ -169,3 +169,15 @@ Avoid disorganization and clutter on the page. Show what is important, and avoid
   8. When in doubt provide messaging that is apologetic.
 
 ### Accessibility
+* The site isn't usable until it is accessible.
+* There are more users who have some sort of challenge than you would assume.
+* It is profoundly the right thing to do.
+* Don't skimp on accessibility just because:
+  1. It is more work.
+  2. It compromises "pretty" design.
+* Here's how to start to make your site more accessible:
+  1. Fix the usability problems that already confuse _EVERYONE_.
+  2. Read an article or ask users who use screen reading software how it is actually use.
+  3. Books
+  4. Go for low hanging fruit. Make sure your cross your ts and dot your is. Add appropriate elements relating to accessibility on the site. (alt text, headings, form compatibility with screen reader, keyboard shortcuts, etc.)
+  5. Use accessible template.
