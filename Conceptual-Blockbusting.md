@@ -24,3 +24,18 @@
   * Example: Finding a needle in the haystack, but not continuing on to find the sharpest needle (if there is more. There could be more... but you don't know because you stopped!)
 * Habitual thinking is natural and our tendency to use when we are forced to make quick decision and answer. (System 1)
 * Conceptualization is the key to problem solving.
+
+## Chapter 2 - Perceptual Blocks
+* **Perceptual blocks** - Obstacles that prevent the problem solver from clearly perceiving the problem itself, or the information needed to solve the problem.
+* Stereotypes give us a lot of preconceptions which inhibit our ability to overcome perceptual blocks.
+* Stereotyping simplifies the brain's work.
+* STM vs LTM, or "short-term memory" vs "long-term memory" - LTM has 2 types:
+  * Explicit - Where we take more time to remember something. For example, a speech.
+  * Implicit - Where we recall things unconciously. For example, driving a car.
+* The things in STM eventually make their way to LTM if we act on trying to remember it for the long-term immediately. (Writing things down, repeatedly stating it, etc)
+* But the easiest thing to ensure things make it to LTM is to remember things by gaining context in what we are trying to remember.
+* We convince ourselves further to stereotypes and confirm our biases. That is, when faced with hard problems, we fallback to what we currently know, and sometimes that involves our stereotyped view on things.
+* We tend to try to solve problems based on our expertise. This leads to trying to solve the problem in the wrong way, or event attempting to solve the problem by only alleviating symptoms.
+* Restating the problem in alternate ways or reframing it with less restrictions may help with solving it. Even trying to solve the opposite problem helps. 
+* When faced with a hard problem, one should not give too many constraints.
+* We tend to get blocked solving problems because we try too hard to stay within some _artificial constraint_.
