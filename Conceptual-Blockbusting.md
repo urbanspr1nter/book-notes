@@ -78,3 +78,19 @@
 * Small groups with interest in creativity can do better than much larger, but less cohesive groups.
 * To make things or processes better, you must be convinced that change is needed in a particular area, or else it is not likely that you can hypothesize ways in accomplishing change.
 * Another environmental block is having a great idea, but not enough resources to bring it to fruition.
+
+## Chapter 5 - Intellectual and Expressive Blocks
+* **Intellectual Blocks** result in an inefficient choice of mental tactics or a shortage of intellectual ammunition (being unaware of what is available)
+* **Expressive blocks** inhibit ability to communicate ideas to others and yourselves.
+* Examples:
+  1. Trying to solve a problem using th ewrong method. (mathematical vs visual vs verbal)
+  2. Inflexible or inadequate use of problem solving strategies
+  3. Insufficient, or incorrect information
+  4. Inadequate language skills to express and record the ideas
+* REALLY, REALLY, REALLY put some conscious thought into selecting the appropriate mental strategy in how to solve a problem. Exercise this conscious thought. Better to select one, and switch to a different one consciously if it doesn't work, rather than try random ones by switching back and forth in between.
+* **Verbal thinking** is one way to think about solving a problem. Our culture heavily emphasizes it. However, when a problem is better solved visually, or mathematically, we have trouble as we tend to try to use verbal thinking first.
+* Overcoming **bad habits** is not easy. It requires us to go back to being novices in practicing new ways of doing something.
+* Really need to spend some conscious effort in selecting the appropraite strategy to solving a problem.
+* Becoming more aware in number of strategies to be utilized in solving a problem allows your mind to have a larger selection.
+* Another common block is that having imprecise verbal expression can lead to difficulty in communicating and solving the problem.
+* Really difficult to shift tinking in how you would solve a problem in your domain to another person's. You have to become a beginner again, and learn the concepts and terminology to be effective.
