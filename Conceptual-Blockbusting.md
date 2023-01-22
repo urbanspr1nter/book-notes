@@ -94,3 +94,18 @@
 * Becoming more aware in number of strategies to be utilized in solving a problem allows your mind to have a larger selection.
 * Another common block is that having imprecise verbal expression can lead to difficulty in communicating and solving the problem.
 * Really difficult to shift tinking in how you would solve a problem in your domain to another person's. You have to become a beginner again, and learn the concepts and terminology to be effective.
+
+## Chapter 6 - Alternate Thinking Languages
+* Verbal thinking is a dominant mode of thinking. This results in  trying to use verbal methods to solve problems in almost everything.
+* Not all problems can be solved using verbal thinking. Some problems can only be solved through mathematical methods.
+* We are trained early in life to not think mathematically, and that it is ok to be bad at math.
+* Because we run away from math, we start to not be able to understand technology or science.
+* Visual thinking is just as important. 
+* Visualization of a problem requires to paint a mental picture.
+* The better we can manipulate the picture in our mind, then we can attack a problem visually.
+* Drawing well and vidualizing in different modes is key. (Realism, fantasy, etc).
+* 3 Problem Solving Styles:
+  1. Analysis Synthesis - Ability to take things broken down through analysis into some whoe.
+  2. Convergent Thinking - Convergent thinking focuses on an answer such as calculating income tax. The opposite of this is divergent thinking, which is the process in generation of ideas, concepts approaches.
+  3. Deduction-Induction - Deduction is to be able to draw conclusions from facts. Induction is the ability to generalize an approach.
+  
