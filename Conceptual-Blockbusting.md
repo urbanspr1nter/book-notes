@@ -68,3 +68,13 @@
 * If we aren't motivated to solve the problem, then there is very little chance for success. We will have many emotional blocks due to the lack of motivation.
 * Being able to distinguish rality and fantasy within the scope of the problem is important. To be a creative problem solver, we must be able to open up and imagine things that can be out of the norm and make us feel uncomfortable.
 * Flow - Rhythm in solving a problem is important.
+
+## Chapter 4 - Cultural and Environmental Blocks
+* Cultural taboos, can remove entire families of solutions from the problem solver.
+* Taboos are conceptual blocks
+* Our culture tends to train away mental playfulness, fantasy, and reflectiveness out of people by putting more value on real mental activities (logic, solving a problem, etc)
+* Left vs. Right brain thinking is an outdated way of thinking about how the brain works.
+* Humans can be a bit tribal by associating ourselves with others who have similar opinions.
+* Small groups with interest in creativity can do better than much larger, but less cohesive groups.
+* To make things or processes better, you must be convinced that change is needed in a particular area, or else it is not likely that you can hypothesize ways in accomplishing change.
+* Another environmental block is having a great idea, but not enough resources to bring it to fruition.
