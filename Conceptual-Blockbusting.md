@@ -109,3 +109,40 @@
   2. Convergent Thinking - Convergent thinking focuses on an answer such as calculating income tax. The opposite of this is divergent thinking, which is the process in generation of ideas, concepts approaches.
   3. Deduction-Induction - Deduction is to be able to draw conclusions from facts. Induction is the ability to generalize an approach.
   
+## Chapter 7 - Kinds of Blockbusters
+* Questioning almost anything is a way to get out of creative blocks
+* As children, we used to question almost everything. However, as we get older, those who are the receiving end of the questioning tend to grow tired of it.
+  * As a result, questioning everything is socialized out of us.
+* When forced under time constraint to think, we can actually come up with creative ideas. It is because we are fighitng under time and pressure to get something done, and are not scared of being judged.
+* It is good to have a questioning attitude.
+* The hard part about attaining a questioning attitude is the emotional block. You have to be open to being ignorant in front of others. This is hard as we don't want people to think less of us.
+* There are some cultures and professions where this constant questioning is valued though. This tends to be more in the area of academics, etc.
+* Working on the right problem. Sometimes, when having a mental block on a problem, the best way is to reframe the problem. See it in a different perspective.
+  * The trick is to try and dissect what are the smaller problems contained within that problem and find the common problem that prevents us from solving all the smaller ones. (Root cause)
+  * Make a "bug list" - things that bother you. They can be small problems.
+  * As it turns out, usually better to try and solve the small problems first than try to solve a really big problem in which you don't understand.
+* How to Solve It
+  * Understand the problem. What are the unknowns? What are the data? What is the condition? Is it possible to satisfy the condition? Can you determine the unknown?
+  * Have you seen this problem before? Or have you seen it in slightly different forms? LOOK AT THE UNKNOWN! Try to think of a familiar problem that has the same type of unknown!
+  * While carrying out the plan to solve the problem, have a method to check that each step is correct.
+  * Now can you actually check the solution to see if it is actually correct?
+* **List making** is a good way to try and solve problems.
+  * We are really good at making lists.
+* Using other people's ideas.
+  * It is OK to try to be inspired by the work of others.
+  * Common practice in other cultures to use the work of others, and try to improve upon.
+  * The product of this isn't necessarily a direct copy. It could lead to a breakthrough.
+* Crossing Disciplines
+  * Integrate other professions/areas outside of your own expertise.
+* Crossing Cultures
+  * Traveling, or trying to learn more about someone from a different culture in how they do things can really help with creativity.
+* Relaxing judgment.
+  * Don't let the ego and superego throw away ideas so early.
+  * They gatekeep. Better to allow all ideas to pass through and see if they work.
+* Maslow
+  * Believes in primary and secondary processes of creatitivity.
+  * Secondary thinking - Right-handed creatitivty. Involves lots of work and draws from breakthroughs from others.
+  * Primary thinking - Self-actualizing people. More awareness in the self.
+* Barron
+  * Creatitivty is unlocked through being a troubled person (essentially)
+* Let ideas sleep and incubate. There is such a concept of unconcious problem solving.
