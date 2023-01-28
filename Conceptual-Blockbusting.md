@@ -146,3 +146,14 @@
 * Barron
   * Creatitivty is unlocked through being a troubled person (essentially)
 * Let ideas sleep and incubate. There is such a concept of unconcious problem solving.
+
+## Chapter 8 - Groups
+* Groups can be effective at breaking conceptual blocks. If a group works well, then we can think of it as having multiple brains combined to a single one.
+* Brainstorm sessions are effective if it is allowed to be very flexible. That is:
+  * Brainstorm sessions should allow participants to just list out any ideas, even if it it sounds ridiculous
+  * Ideas should not be evaluated as to not discourage participants from expressing themselves
+  * Should allow for the development of competitive spirit
+* The most important factor in making brainstorming work is actually the fact that there is a delay in judgment. When people are able to express their ideas without looking like the odd one out, it can allow for more creative and original ideas.
+* A group that is successful is likely going to be composed of people who are like-minded and like each other. Those who are "different" tend to be shunned and seen as hostile in a more unsuccessful groups. 
+* Different types of groups. If a group has a structure where there is no leader, usually there is an informal leader who developers.
+* Proper support during formation of the group and process in thinking of ideas must be made. Make the environment comfortable, and known that the problem they are solving is indeed, very important. Do not try to as a manager, to exert your superiority over others and/or give false deadlines to come up with something.
