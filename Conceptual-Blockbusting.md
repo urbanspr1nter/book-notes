@@ -158,10 +158,18 @@
 * Different types of groups. If a group has a structure where there is no leader, usually there is an informal leader who developers.
 * Proper support during formation of the group and process in thinking of ideas must be made. Make the environment comfortable, and known that the problem they are solving is indeed, very important. Do not try to as a manager, to exert your superiority over others and/or give false deadlines to come up with something.
 
-## Chatper 9 - Organizations
+## Chapter 9 - Organizations
 * Organizations go through a life cycle. As a start up, creative energy is high. Everyone feels they are a part of something, and the focus is on creating a product.
 * When organizations grow to a medium size, then the focus shifts towards expending resources in selling the product, or working on follow up products. There is also more bureaucracy to handle. The opportunities to continue to be creative is smaler.
 * Organizations which are large are too focused on playing by rules and also more conservative.
 * People are most creative when knowing they have to be, and what rewards will be ahead.
 * Extrinsic motivation: There are monetary, psychological and cultural rewards which can influence a person.
 * The more resources one has, the more energy they will most likely spend to be creative. (Possibly because their problems can be solved, allowing 1 less block on their creativity...)
+
+## Chapter 10 - Raising Creative Children and Creativity in the Future
+* Creative children - is it genetic or is it nurture? Maybe a bit of both.
+* Encourage creativity in children as much as possible.
+* Encourage that there are potentially many right answers. Adolescence is a difficult time for children as they are having their last chance to "discover" themselves.
+* Focus on he big and broader problems
+* Have we gotten smarter even if our brains are physically smaller?
+* We must focus to think creatively for the future.
