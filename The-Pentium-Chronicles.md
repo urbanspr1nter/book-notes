@@ -49,4 +49,46 @@
 * Test work as early as possible as to not have a hard time fixing things later on.
 
 ## Chapter 3 - Refinement Phase
-* 
+* Consumers of your product will usually not care about the details of your "slick design". They just care if it works and performs as expected.
+* Meet the project goals and make sure it aligns with the plan-of-record (POR).
+* Try not to change the project's goals in the middle of the development. Will cause delays and misaligned vision amongst team members.
+  * How about ideas that crop up midstream? The group must agree to pick it up and sign off.
+* Have formal change requests. Require multiple signatures from various levels. Will serve as agreement by all parties change should take place.
+* Change requests that impact entire project must go through a very thorough review panel.
+* "Designers make mistakes, but good designers strive to avoid making the same mistake twice".
+  * Conduct design reviews.
+  * Aggregate documentation (central web site)
+* Really hard to determine which bug to fix, vs which bug to accept and go out in the wild.
+
+## Chapter 4 - Realization Phase
+* Engineering is all about trade-offs. Understand this.
+* Architects should stay for the duration of the project. Pipelining them where they are involved in the beginning and then leave for another project once concept+refinement phase is done won't allow them to observe the rights and wrongs of their design choices.
+* Always consider providing testability hooks into the product. You may never know when you're going to need it -- will make it easier to debug and modify rather than trying to rebuild it (fab again).
+* Remember that validation is not the one that create bugs, they just find it. 
+* Monetary rewards is something that always works, but some people also want things that can serve as an alternative. For example, giving more convenience.
+* It is hard to figure out who to give out prestigious awards to. Someone will always feel left out. Need thick skin to accept this will always be the case.
+* Some people are good at looking like they are fixing problems all the time, but be careful and think whether they are also creating the problems. Try not to reward the arsonists who double-serve as fire fighters.
+* Executives must provide the necessary motivation on the workers' own terms.
+* Sometimes the data shows no progress due to always discovering new problems. May be a sign to revisit how team productivity metrics are evaluated.
+* Keep design as simple as possible. Complexity costs.
+
+## Chapter 5 - Production Phase
+* Validation is very important, but usually can only happen much later in the project. Sometimes appropriate credit not given on time.
+* Microcode patch space is valuable. Use sparingly.
+* It was not an oversight P6 was not as performant as expected with 16-bit code. It was an engineering trade-off.
+* Make sure you are able to communicate the purpose of the project as a pitch with a very good example (analogy). For the P6 the out of order execution was described as having multiple shopping carts, and having helpers to just grab items and check to see if the items are correct later. Executives loved it.
+* Probably not a good idea to decide to use a completely different technology stack in the middle of a project. (Switching from Unix to Windows NT)
+
+## Chapter 6 - The People Factor
+* Those who go above and beyond will be looked at for promotion. As it turns out, it matters less where you went to school.
+* Unnecessary and unreasonable policies can really hurt productivity.
+* If you have the opportunity to fight against an unreasonable policy, try to do so. Sometimes policies can hinder productivity.
+* When defining goals, it is to make sure the team knows what tasks to get done. It is okay to not be able to achieve all of them by the end of the quarter. Planning is helpful because it forces us to think what is actually important vs. not.
+* Burnout occurs when employee doesn't care about the work anymore. If employee is passionate about project, they will naturally work hard.
+
+## Chapter 7 - Inquiring Minds Like Yours
+* P6 project was not affected by the FDIV bug. In fact, the project likely _discovered_ the bug.
+* Pentium FDIV bug came from the fact that no validation was done on the modified area in die. FDIV came from the motivation to decrease die space, although it didn't decrease at all. (Taking Kansas out of the US example)
+* A lot of hype around the Itanium CPU. Goal was to transition to 64-bit processors by 1999. Itanium was a partnership between Intel and HP. Team in Santa Clara, CA worked with HP on the Itanium Processor Family. This team was particularly siloed and wasn't great for company culture. IPF team believed they were the future. Asked other x86 teams to slow down in continuing architectural improvements as it was hard for them to keep up. In hindsight, IPF should've started out as a research project to prove out ideas before persuading management to go all-in. Would have been able to know what worked and not.
+* Do good work, and your career will advance with the same thought and passion you put into the work. No cookie-cutter path to being a successful career. The key is to just focus on delivering -- always.
+* Robert Crowell left Intel due to frustration. Disagreed on the continuing strategy of high clock-rate CPUs (Pentium 4). Felt next step was to focus on mobile computing.
