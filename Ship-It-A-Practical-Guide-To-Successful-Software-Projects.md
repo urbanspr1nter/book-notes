@@ -16,3 +16,11 @@
 - Your Tech Lead is the interface between the development team and manager/product managers. They have a technical background, and understand the complexities of the development process of the product.
 - Tech Lead's job is to set direction for team members, priotize the project work and also product the team from unnecessary happenings.
 - Let a Tech Lead, lead.
+- Have frequent daily meetings. They should be timeboxed. Think about the "burn rate" -- the amount of money being spent when work is or is not getting done.
+- Have code reviews frequently. Smaller and frequent code reviews can help improve product and the developers.
+- Use tracer bullet development techniques to always be in a state where code can be shipped by having a defined interface and stubbed out functions.
+- Stubbed out functions are useful because they let the team continue their development without having to worry about the codebase breaking due to some implementation change.
+- Allows for opportunities to be able to demo to a customer E2E if stubbed out functions return mocked data.
+- If a code base is difficult to manage due to it being complex, or legacy, consider diving into learning it by writing lots of tests for it. 
+- Leverage the teams list of tasks to keep the Manager and Customer expectations in check. If Manager or customer is always asking for status update, then train them to look at **The List**.
+- How to make sure that there are tests? If the project is already well under way and there are no tests, the best way to start adding tests is to add new tests that correspond to code that fixes bugs!
